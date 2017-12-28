@@ -1,0 +1,28 @@
+{
+  "name": "aws-deploy",
+  "version": "1.0.0",
+  "description": "docker image for aws deploy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RainaWLK/node-aws-deploy.git"
+  },
+  "keywords": [
+    "aws"
+  ],
+  "author": "RainaWLK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RainaWLK/node-aws-deploy/issues"
+  },
+  "homepage": "https://github.com/RainaWLK/node-aws-deploy#readme",
+  "dependencies": {
+    "aws-sdk": "^2.175.0",
+    "glob": "^7.1.2",
+    "gulp": "^3.9.1"
+  }
+}

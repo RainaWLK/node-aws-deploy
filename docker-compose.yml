@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  node-aws-deploy:
+    image: node-aws-deploy
+    build: .
+    environment:
+      NODE_ENV: production
